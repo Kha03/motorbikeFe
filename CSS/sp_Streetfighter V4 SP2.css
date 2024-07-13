@@ -1,0 +1,144 @@
+/* LAYOUT 0 */
+
+.layout-0 {
+  height: 100%;
+}
+/* LAYOUT 1 */
+
+.layout-1 {
+  height: 390px;
+}
+/* LAYOUT 2 */
+
+.layout-2 {
+  height: 800px;
+  position: relative;
+}
+
+.layout-2 .bg .title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 250px;
+  color: #fafafa;
+  font-size: 35px;
+}
+
+.layout-2 .sp-bg {
+  position: relative;
+  width: 100%;
+}
+
+.layout-2 .bg .sp {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 170px;
+  left: -40px;
+}
+
+.layout-2 .bg .btn-sp {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  bottom: 0px;
+  right: 80px;
+}
+
+.layout-2 .bg .color-title {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  bottom: 220px;
+  left: 1100px;
+  color: #bbbcbc;
+}
+
+/* LAYOUT 3 */
+
+.layout-3 {
+  padding-top: 50px;
+  height: 680px;
+}
+
+.layout-4 {
+  height: 620px;
+}
+
+.layout-4 .body {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-items: space-between;
+  transition: transform 0.3s ease-out;
+}
+
+.layout-4 .body div {
+  width: 100%;
+}
+
+.layout-4 .body div img {
+  width: 99.6%;
+  height: auto;
+  z-index: 0;
+}
+
+.layout-4 .body div img:hover {
+  transform: scale(110%);
+}
+
+.layout-5 {
+  height: 230px;
+}
+
+.layout-6 {
+  height: 850px;
+}
+/*layout 7*/
+
+.layout-7 {
+  height: 800px;
+  position: relative;
+  padding: 10px 100px;
+}
+
+.layout-7 div .content .d-editor-text .body .title {
+  position: absolute;
+  left: 500px;
+  top: -590px;
+}
+
+.layout-7 div .content .d-editor-text .body .content {
+  position: absolute;
+  left: 395px;
+  top: -530px;
+}
+
+.layout-7 div .content .d-editor-text .title {
+  position: absolute;
+  padding: 0 0 20px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  top: 15px;
+  color: #0f0f0f;
+  padding: 10px 0px 10px 245px;
+}
+
+.layout-7 div .content .d-editor-text .content {
+  position: absolute;
+  top: 80px;
+  padding: 10px 0px 10px 350px;
+  color: #0f0f0f;
+}
+/* layout 8 */
+.layout-8 {
+  position: relative;
+  height: 530px;
+}
+
+.link,
+.layout-8 .footer .content .flex .box-logo .second-logo,
+.layout-8 .footer .content .flex .box-language .country {
+  text-decoration: none;
+}

@@ -1,0 +1,238 @@
+/* LAYOUT 0 */
+
+.layout-0 {
+  height: 100%;
+}
+
+.layout-1 {
+  height: 360px;
+}
+
+/* LAYOUT 2 */
+
+.layout-2 {
+  height: 780px;
+  position: relative;
+}
+
+.layout-2 .d-video-full {
+  padding-bottom: 60px;
+}
+
+.layout-2 .d-video-full > .video-source::before {
+  content: "";
+  display: block;
+  height: 0;
+  padding-bottom: 56%;
+}
+
+.layout-2 .d-video-full > .video-source > .video-source-element {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LAYOUT 3 */
+
+.layout-3 {
+  height: 450px;
+}
+
+.layout-4 {
+  height: 600px;
+}
+
+/* layout 5 */
+
+.layout-5 {
+  height: 310px;
+}
+
+.layout-6 {
+  margin-top: 60px;
+  padding: 20px 50px;
+  height: 400px;
+}
+
+.layout-6 .wrapper {
+  display: flex;
+  background: #fff;
+  max-width: 1330px;
+  flex-wrap: nowrap;
+  border-left: 4px solid #c00;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  /* height: 300px; */
+}
+.layout-6 .wrapper:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+.layout-6 .wrapper .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 34px;
+  position: relative;
+}
+.layout-6 .wrapper .text .category {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #666;
+  font-size: 1.4rem;
+}
+.layout-6 .wrapper .text .title {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.4;
+}
+.layout-6 .wrapper .text .desc {
+  font-weight: 400px;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.layout-6 .wrapper .text .link {
+  display: flex;
+  margin-top: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #c00;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.layout-6 .wrapper .image {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.layout-6 .wrapper .image .lazyloaded {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* layout 7 */
+
+.layout-7 {
+  height: 850px;
+  position: relative;
+}
+
+.layout-7 .d-video-full {
+  padding-bottom: 60px;
+}
+
+.layout-7 .d-video-full>.video-source {
+  width: 1330px;
+  margin: 0 auto;
+  background-color: #0f0f0f;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.layout-7 .d-video-full>.video-source::before {
+  content: '';
+  display: block;
+  height: 0;
+  padding-bottom: 56%;
+}
+
+.layout-7 .d-video-full>.video-source>.video-source-element {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-7 .d-video-full>.video-source>.video-source-element {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.layout-8 {
+  height: 700px;
+  position: relative;
+}
+
+.layout-8 .bg {
+  padding: 0 60px;
+}
+
+.layout-8 div .content .d-editor-text .body {
+  position: relative;
+}
+
+.layout-8 div .content .d-editor-text .body .title {
+  position: absolute;
+  left: -130px;
+  top: -500px;
+}
+
+.layout-8 div .content .d-editor-text .body .content {
+  position: absolute;
+  left: -235px;
+  top: -430px;
+  text-align: justify;
+  z-index: 1;
+}
+
+.layout-9 {
+  height: 220px;
+}
+
+.layout-9 div div div input[type="email"] {
+  border-bottom: 3px solid #e74646;
+  outline: none;
+  color: #fa9884;
+  font-size: 16px;
+}
+
+.layout-9 div div div input[type="email"]:focus {
+  box-shadow: 0.25rem 0.3rem #fa9884;
+  border-bottom: 3px solid #e74646;
+  border-top: 1px solid #e74646;
+  color: #fa9884;
+}
+
+.layout-9 div div div input[type="email"]::placeholder {
+  color: #fa9884;
+  font-size: 15px;
+}
+
+.layout-10 {
+  position: relative;
+  height: 530px;
+}
+
+.link,
+.layout-10 .footer .content .flex .box-logo .second-logo,
+.layout-10 .footer .content .flex .box-language .country {
+  text-decoration: none;
+}
